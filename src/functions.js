@@ -19,7 +19,9 @@
 
 // Your code here!
 
-
+functions.subtract = function(num1, num2){
+  return num1 - num2;
+}
 
 
 // 2. Create a function named functions.modulo that takes two parameters and returns the remainder when one number is divied by another
@@ -29,7 +31,9 @@
   //Ex: functions.modulo(9, 4) // 1
 
 // Your code here!
-
+functions.modulo = function(num1, num2){
+  return num1 % num2;
+}
 
 
 
@@ -39,6 +43,9 @@
   //Ex: functions.multiply(1, 2) // 2
 
 // Your code here!
+functions.multiply = function(num1, num2, num3, num4){
+  return num1 * num2;
+}
 
 
 
